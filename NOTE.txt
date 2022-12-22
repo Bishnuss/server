@@ -1,0 +1,61 @@
+ Server Creation  -using express
+ ---------------
+
+ Install express
+   
+      -npm i express
+
+
+ 1. Import express
+
+ 2. Create an app using express
+
+ 3.Create Port number    (3000-series)
+
+ 4. Create Request According to our project
+
+
+
+ nodemon Server
+ --------------
+
+    -npm i -g nodemon
+
+    npx nodemon index.js (Server open cheyyan)
+
+ User Authentication Using express
+ --------------------------------
+  JWT Token-(Jason Web Token)  
+
+  Jason web token - library
+
+  sign()          - Method used for genarate token
+
+  verify()        - Method to verify jwt tokens
+
+  instalation command  = npm i jsonwebtoken
+
+      Middlewares
+      ----------
+    - Middlewares have the capasity to control server Request    
+    - its a function with three arguments (Request,response,next)
+
+    -Two types
+
+             1. Application specific Middlewares(mothathil kodukkan)
+
+             2. Router specific Middlewares -(select cheyythu kodukkan)
+
+
+    Solving run-time errors in javascript
+   ------------------------------------------
+
+ try catch
+
+ try{
+   error causing code
+ }    
+ catch{
+   solution
+ }       
+
