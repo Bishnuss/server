@@ -59,3 +59,24 @@
    solution
  }       
 
+
+
+   SERVER MONGODB INTEGRATION
+   ..........................
+
+ -mongoose - (library used to integrate database and server)
+
+  install - npm i mongoose  
+
+  Steps-
+
+  // server mongodb integration
+
+// 1. import mongoose
+
+// 2. state connection string via mongoose
+
+// 3. define a bank(any) database model 
+
+
+//  export the schema to use in another files
